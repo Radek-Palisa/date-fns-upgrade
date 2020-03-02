@@ -2,7 +2,10 @@
   "name": "@date-fns/upgrade",
   "version": "1.0.1",
   "description": "A tool for upgrading date-fns versions",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/date-fns/date-fns-upgrade",
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
@@ -22,6 +25,8 @@
     "date-fns": "^2.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
   }
 }
