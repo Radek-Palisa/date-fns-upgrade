@@ -1,3 +1,6 @@
+This fork builds `@date-fns/upgrade` to ES5 instead of ES6. ([date-fns/date-fns-upgrade#6](https://github.com/date-fns/date-fns-upgrade/issues/6))
+---
+
 # date-fns upgrade
 
 Support package with helper functions for `date-fns` upgrade from `1.x` to `2.x`

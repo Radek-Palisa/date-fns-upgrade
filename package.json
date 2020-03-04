@@ -1,12 +1,12 @@
 {
-  "name": "@date-fns/upgrade",
+  "name": "@radek-palisa/date-fns-upgrade",
   "version": "1.0.1",
   "description": "A tool for upgrading date-fns versions",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/date-fns/date-fns-upgrade",
+  "repository": "https://github.com/Radek-Palisa/date-fns-upgrade",
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
   "devDependencies": {
@@ -27,7 +27,6 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prepare": "npm run build",
-    "install": "npm run build"
+    "prepublishOnly": "npm run build"
   }
 }
